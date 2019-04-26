@@ -1,4 +1,4 @@
-// https://discordapp.com/api/oauth2/authorize?client_id=571464719144321084&permissions=3072&scope=bot
+// Invite Link -> https://discordapp.com/api/oauth2/authorize?client_id=YOUR_SERVER_ID&permissions=3072&scope=bot
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
