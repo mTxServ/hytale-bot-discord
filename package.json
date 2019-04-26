@@ -1,0 +1,20 @@
+{
+  "name": "hytale-bot-discord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mTxServ/hytale-bot-discord.git"
+  },
+  "homepage": "https://hytale.game",
+  "author": "Hytale.game <contact@hytale.game>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "hytale-api-sdk": "^1.0.3"
+  }
+}
