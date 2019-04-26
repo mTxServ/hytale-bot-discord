@@ -44,4 +44,4 @@ client.on('message', message => {
 });
 
 // start bot
-client.login('YOUR_TOKEN_HERE0');
+client.login('YOUR_TOKEN_HERE');
