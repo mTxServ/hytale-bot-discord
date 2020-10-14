@@ -28,7 +28,7 @@ client.on('message', message => {
                     const publishAt = new Date(article.publishedAt);
                     const embed = new Discord.RichEmbed()
                         .setColor(3447003)
-                        .setThumbnail(`https://hytale.com/m/variants/blog_thumb_${article.coverImage.s3Key}`)
+                        .setThumbnail(`https://cdn.hytale.com/variants/blog_cover_${article.coverImage.s3Key}`)
                         .setAuthor('HytaleBot', 'https://hytale.com/favicon.ico')
                         .setTitle(article.title)
                         .setDescription(article.bodyExcerpt)
